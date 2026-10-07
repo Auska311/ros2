@@ -1,0 +1,8 @@
+string timestamp
+string hostname
+float64 cpu_usage
+float64 memory_usage
+uint64 total_memory
+uint64 free_memory
+uint64 network_rx_bytes
+uint64 network_tx_bytes
