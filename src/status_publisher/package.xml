@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>status_publisher</name>
+  <version>0.0.0</version>
+  <description>ROS2 system status publisher with Qt GUI</description>
+
+  <maintainer email="27778144182qq.com">chen</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>status_interfaces</depend>
+  <depend>python3-psutil</depend>
+  <depend>python3-pyqt5</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
